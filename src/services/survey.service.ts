@@ -37,7 +37,7 @@ export const surveyService = {
           country: country.country,
         });
 
-        const startUrl = `${config.baseUrl}/api/v1/surveys/start?token=${token}&uid={{uid}}`;
+        const startUrl = `${config.baseUrl}/api/v1/surveys/start?token=${token}&uid=[XXXX]`;
 
         return {
           ...vendor,
